@@ -3543,7 +3543,8 @@ Services
   background: #fff;
   overflow: hidden;
   position: relative;
-  padding: 50px 40px;
+  padding: 50px 24px;
+  min-height: 557px;
 }
 
 .service__area-item-icon {

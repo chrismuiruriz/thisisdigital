@@ -4658,4 +4658,54 @@ Background
   border-top: 1px solid #cdced0;
   padding-top: 120px;
 }
+
+.logo-container {
+  padding-top: 42px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo-container a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: all 0.3s linear;
+}
+
+.logo-container a:hover {
+  border: 2px solid rgba(203, 196, 196, 0.1);
+}
+
+.logo-container a img {
+  height: 100px;
+  width: auto;
+  filter: grayscale(1);
+  transition: all 0.3s linear;
+}
+
+@media (max-width: 991px) {
+  .logo-container {
+    padding-top: 32px;
+    flex-wrap: wrap;
+  }
+
+  .logo-container a {
+    width: 50%;
+  }
+
+  .logo-container a img {
+    width: 80%;
+    height: auto;
+  }
+}
+
+.logo-container a:hover img {
+  opacity: 0.8;
+  filter: grayscale(0);
+}
+
 /*# sourceMappingURL=style.css.map */

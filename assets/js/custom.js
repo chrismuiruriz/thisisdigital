@@ -1,5 +1,6 @@
 (function ($) {
   "use strict";
+
   // /*========== Responsive Menu  ==========*/
   $(".header__area-main-menu").meanmenu({
     meanMenuContainer: ".responsive-menu",
@@ -7,6 +8,9 @@
     meanMenuOpen: "<span></span><span></span><span></span>",
     meanMenuClose: '<i class="flaticon-close"></i>',
   });
+
+  $(".responsive-menu > .mean-bar > a").attr("title", "Mobile Menu");
+
   // /*==========  wow  ==========*/
   new WOW().init();
   /*========== menu-bar sticky  ==========*/

@@ -3253,7 +3253,10 @@ Footer
   margin-bottom: 25px;
 }
 
-.footer__area-widget-title h4 {
+.footer__area-widget-title h4,
+.footer__area-widget-title h5,
+.footer__area-widget-title h6,
+.footer__area-widget-title p {
   color: #fff;
 }
 
@@ -4706,6 +4709,20 @@ Background
 .logo-container a:hover img {
   opacity: 0.8;
   filter: grayscale(0);
+}
+
+.footer__area-widget-contact-info-title a,
+.footer__area-widget-about-text p,
+.copyright__area-left p {
+  color: #e1e2e5;
+}
+
+.copyright__area-left p a {
+  color: #a6c6f9;
+}
+
+.copyright__area-left p a:hover {
+  color: #007bff;
 }
 
 /*# sourceMappingURL=style.css.map */

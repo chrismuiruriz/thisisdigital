@@ -19,18 +19,18 @@
     }
   });
   /*==========  Team Slider  ==========*/
-  var swiper = new Swiper(".team-slider", {
-    slidesPerView: 1,
-    loop: true,
-    speed: 600,
-    autoplay: {
-      delay: 3000,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      clickable: true,
-    },
-  });
+  // var swiper = new Swiper(".team-slider", {
+  //   slidesPerView: 1,
+  //   loop: true,
+  //   speed: 600,
+  //   autoplay: {
+  //     delay: 3000,
+  //   },
+  //   pagination: {
+  //     el: ".swiper-pagination",
+  //     clickable: true,
+  //   },
+  // });
   /*==========  counterUp  ==========*/
   var counter = $(".counter");
   counter.counterUp({
@@ -51,16 +51,16 @@
     e.stopPropagation();
   });
   /*==========  img-popup  ==========*/
-  $(".img-popup").magnificPopup({
-    type: "image",
-    gallery: {
-      enabled: true,
-    },
-  });
+  // $(".img-popup").magnificPopup({
+  //   type: "image",
+  //   gallery: {
+  //     enabled: true,
+  //   },
+  // });
   /*==========  video-popup  ==========*/
-  $(".video-popup").magnificPopup({
-    type: "iframe",
-  });
+  // $(".video-popup").magnificPopup({
+  //   type: "iframe",
+  // });
   /*==========  background  ==========*/
   $("[data-background]").each(function () {
     $(this).css(
